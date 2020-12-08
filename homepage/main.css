@@ -1,0 +1,64 @@
+.main {   
+    -ms-flex: 70%; /* IE10 */
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+  }
+  
+
+  @media screen and (max-width: 700px) {
+    .row {   
+      flex-direction: column;
+    }
+  }
+  h2.training{
+    color:#212640;
+  }
+  .center{
+    width:80%;
+    border-top-style: solid;
+    border-top-color: #a3a3c2;
+    border-top-width: thin;
+    border-bottom-style: solid;
+    border-bottom-color: #a3a3c2;
+    border-bottom-width: thin;
+    padding:2%;
+    color:#212640;
+
+  }
+  .centerm{
+    width:80%;
+
+    padding:2%;
+    color:#212640;
+
+  }
+  .center:hover{
+    background-color: #4c8ece;
+    opacity: 1;
+    color:#fff;
+    transition: 0.3s;
+  }
+  .centerm:hover{
+    background-color: #4c8ece;
+    opacity: 1;
+    color:#fff;
+    transition: 0.3s;
+  }
+  .center a{
+    font-size: large;
+    text-decoration: none;
+    
+  }
+  .center a:hover{
+    color:#fff;
+  }
+  
+  .center h4{
+    color:#212640;
+  }
+  .centerm h4{
+    color:#212640;
+  }
+
+    

@@ -1,0 +1,36 @@
+/* ----------------------------------
+            404error CSS 
+   ----------------------------------*/
+
+body#errorPage {
+    background-color: #005EB8;
+}
+
+div#errorPage-wrap {
+    width: 100%;
+    height: 100%;
+    background-color: #FFF;
+}
+
+div#error-wrap {
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 15vh 0;
+}
+
+p#error {
+    font: bold 110% "Times New Roman";
+    padding: 20px 0;
+}
+
+p#noPage {
+    font: normal 90% cursive;
+    padding: 0;
+}
+
+a#backHome {
+    font: normal 90% "Times New Roman";
+    font-variant: small-caps;
+    padding: 20px 0 20px 30px;
+}

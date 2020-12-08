@@ -1,0 +1,238 @@
+/* ----------------------------------
+              BOOKING PAGE CSS 
+     ----------------------------------*/
+
+body#bookingPage {
+    background-color: #005EB8;
+    overflow-x: hidden;
+}
+
+div.BookingPageContainer {
+    margin: 5px 0;
+    padding: 0;
+}
+
+div#left.formSide {
+    position: absolute;
+    display: flex;
+    width: 0;
+    left: 0;
+    background-color: #FFF;
+    transition: 0.5s;
+    margin: 0;
+    overflow-y: auto;
+    height: 710px;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+div#right {
+    transition: margin-left .5s;
+    margin-bottom: 0;
+    height: 710px;
+}
+
+div#localeMap {
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+div#showPASS.userSelect {}
+
+div#showPASS {
+    display: inline-block;
+    width: 30px;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    margin-top: 40px;
+}
+
+div#showPF {
+    display: inline-block;
+    width: 275px;
+    margin: 0;
+    padding: 0;
+}
+
+.submitWrapper,
+.issueWrapper {
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+
+/* --------------- Table ------------------- */
+
+table.bookingFormTable {
+    width: 100%;
+}
+
+td.leftCol {
+    width: 90px;
+}
+
+td.rightCol {
+    width: 170px;
+}
+
+td.twoCol {
+    width: 300px;
+}
+
+
+/* --------------- Form ------------------- */
+
+form.bookingForm {
+    width: 450px;
+    padding: 0 25px;
+}
+
+.required,
+.labels {
+    font: bold 110% "Times New Roman";
+}
+
+.bookingForm label,
+.labels,
+.bookingForm select,
+.bookingForm input[type=date] {
+    font-size: 115%;
+}
+
+.dateButtons,
+.submitButton,
+.theDateButton {
+    background-color: #005EB8;
+    border: 0 #005EB8 solid;
+    border-radius: 5%;
+    color: #EEE;
+    cursor: pointer;
+}
+
+.dateButtons {
+    margin: 1% 2%;
+    padding: 1% 2%;
+    font-size: 105%;
+}
+
+.theDateButton {
+    margin: 1% 0%;
+    padding: 1% 1%;
+    font-size: 105%;
+    font-weight: bold;
+}
+
+.submitButton {
+    font-size: 125%;
+    margin: 3% auto;
+    padding: 4%;
+}
+
+#reserve:disabled {
+    background-color: #CCC;
+    border-radius: 5%;
+    border: 0 #CCC solid;
+    color: #7E7E7E;
+    cursor: pointer;
+}
+
+button#slideButton {
+    background-color: #005EB8;
+    color: #FFF;
+    margin-left: 5px;
+    z-index: 99999;
+    position: absolute;
+    top: 85vh;
+    width: 50px;
+}
+
+#slideButton:hover {
+    background-color: #4C8ECE;
+    color: #FFF;
+}
+
+.slideSide {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #FFF;
+    color: #111;
+    padding: 10px 15px;
+    border: #111 solid 1px;
+}
+
+.userSelect {
+    cursor: pointer;
+}
+
+legend.required {
+    margin: 0;
+    padding: 0;
+    border-radius: 25px;
+    background-color: #FFF;
+}
+
+fieldset#fieldP {
+    display: inline-block;
+}
+
+input#confirmPass {
+    width: 100%;
+}
+
+
+/* --------------- Text ------------------- */
+
+.required:after {
+    content: " *";
+    color: #ff0000;
+}
+
+p#bookingNumber {
+    text-align: center;
+    color: #BBB;
+    font-size: 80%;
+    width: 100%;
+    padding: 0 auto;
+}
+
+p#weatherIssue {
+    text-align: center;
+    width: 100%;
+    font: bold 120% "Times New Roman";
+    color: #ff0000;
+}
+
+body#bodyconf {
+    background-color: #005EB8;
+}
+
+div#bookconfirm-wrap {
+    width: 100%;
+    height: 500px;
+    background-color: #FFF;
+}
+
+div#confirmation-wrap {
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 15vh 0;
+}
+
+p#bookconfirmation {
+    font: bold 110% "Times New Roman";
+    padding: 20px 0;
+    font: normal 90% cursive;
+    padding: 0;
+}
+
+a#backtoBooking {
+    font: normal 90% "Times New Roman";
+    font-variant: small-caps;
+    padding: 20px 0 20px 30px;
+}

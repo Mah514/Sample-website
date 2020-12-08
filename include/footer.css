@@ -1,0 +1,20 @@
+
+.footer {
+    padding: 20px;
+    background: #005eb8;
+  }
+  ul.foot {
+    list-style-type: none;
+    margin:0;
+    overflow: hidden;
+    font-size:90%;
+  }
+  
+ul.foot li {
+    font-family:sans-serif;
+    color:white;
+    display: inline-block;
+    padding: 0px 0px 0px 25%;
+  }
+  ul.foot li.right { font-family:sans-serif;color:white; display: inline-block}
+  

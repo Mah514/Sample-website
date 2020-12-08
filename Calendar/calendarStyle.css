@@ -1,0 +1,209 @@
+/* ----------------------------------
+            Calendar CSS 
+   ----------------------------------*/
+
+   * {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+
+} */
+
+
+
+
+.cal_block {
+	
+  width: 100vw;
+  height: 110vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+   
+}
+
+
+.calendar {
+  width: 80%;
+  height: 90%;
+  
+  
+ 
+}
+
+.month {
+  width: 100%;
+  height: 15%;
+  background-color: #4c8ece;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+
+/* Next & previous buttons */
+   .cal_prev, .cal_next {
+     cursor: pointer;
+
+     top: 50%;
+     width: auto;
+     padding: 16px;
+     margin-top: -22px;
+   
+     font-weight: bold;
+     font-size: 18px;
+     transition: 0.6s ease;
+     border-radius: 3px 3px 3px 3px;
+     user-select: none;
+	 text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+   }
+   
+
+   /* On hover, add a black background color with a little bit see-through */
+   .cal_prev:hover, .cal_next:hover {
+     background-color: rgba(0,0,0,0.8);
+	 color: #4c8ece;
+   }
+  
+
+  
+
+
+
+
+
+.month h1 {
+  margin-bottom: 3px;
+}
+
+
+
+.weekdays{
+	
+  width: 100%;
+  height: 25px;
+	
+  display: flex;
+  align-items: center;
+  
+}
+
+
+
+
+
+.weekdays div{
+  border-style: solid;
+  border-width: 1px;
+  
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  
+  width: 14.28571428%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.days {
+
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+
+
+}
+
+
+
+
+.dayBox {
+  border-style: solid;
+  border-width: 1px;
+  font-size: 1.4rem;
+  width: 14.2857%;
+  height: 100px;
+
+  position: relative; 
+  
+  display: flex;
+  flex-flow: column;
+  justify-content:space-between;
+  
+  padding: 3px;
+  transition: background-color 0.2s;
+}
+
+
+
+.dayBox:hover {
+	 border: 3px solid #4c8ece;
+	 border-radius: 5px 5px 5px 5px;
+	 
+     
+}
+
+.dayHeader{
+  display: flex;
+  flex-flow: row;
+  justify-content:space-between;
+  align-items: top;
+
+}
+.dayNum{
+   text-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.5);
+  
+}
+.dayTemp{
+   font-size: 15px;
+   margin-top:5px;
+}
+.dayImg{
+  
+}
+.dayAvailability{
+   font-size:12px;
+   margin-bottom: 30px;
+   background-color: #90EE90;
+   
+   border-radius: 3px 3px 3px 3px;
+}
+.dayAvailability:hover{
+	
+	background-image: linear-gradient(#32CD32,#90EE90);
+}
+
+.weather_icon{
+  height:45px;
+  width:45px;
+}
+
+
+.lastmonth, .nextmonth {
+  opacity: 0.5;
+  
+}
+
+
+.today {
+ /*background-color: #4c8ece;*/
+}
+.q_0{
+	display: none;
+}
+
+.hazard{
+	background-color: #FF6666;
+	
+}
+.hazard:hover{
+	
+	background-image: linear-gradient(#FF3333,#FF6666);
+}

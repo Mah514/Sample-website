@@ -1,0 +1,16 @@
+.row {  
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+  }
+  
+  .side {
+    -ms-flex: 30%; /* IE10 */
+    flex: 30%;
+    background-color:	#e0e4f4;
+    padding: 20px;
+  }
+  .side p{font-family:sans-serif}
+  .side h2{color:#212640}
+  .side h3{color:#212640}

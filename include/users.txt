@@ -1,0 +1,12 @@
+
+mah	Mahmoud	Idlbi	mahmoudidlbi@outlook.com	123	123
+
+Array
+(
+    [username] => m_idlb
+    [fname] => Mahmoud
+    [lname] => Idlbi
+    [email] => mahmoudidlbi@outlook.com
+    [password] => 13
+    [cpassword] => 123
+)
